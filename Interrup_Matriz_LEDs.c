@@ -22,7 +22,7 @@
 #define WS2812_PIN 7
 #define BOTAO_A 5
 #define BOTAO_B 6
-#define TEMPO_DEBOUNCE 5
+#define TEMPO_DEBOUNCE 200
 #define TEMPO to_ms_since_boot(get_absolute_time())
 volatile unsigned long TEMPODEBOUNCE; 
 
